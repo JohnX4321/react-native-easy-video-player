@@ -19,6 +19,12 @@ the code can be written as
 
 Further more features will be added and developement continued. Thank You!!
 
-![Opening Screen](./screenshots/opening_view.png)
-![Player Screen](./screenshots/playing_view.png)
+![Opening Screen](screenshots/opening_view.png)
+![Player Screen](screenshots/playing_view.png)
 
+##Please install react-native-video and react-native-vector -icons at project level and manually link them by
+
+```
+    1) react-native link react-native-video
+    2) react-native link react-native-vector icons
+```
