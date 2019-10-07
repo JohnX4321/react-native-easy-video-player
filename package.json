@@ -1,13 +1,16 @@
 {
-  "name": "@johnx/react-native-easy-video-player",
+  "name": "@johnx4321/react-native-easy-video-player",
   "version": "0.0.1",
-  "private": true,
+  "repository": "git://github.com/JohnX4321/react-native-easy-video-player.git",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "prop-types": "^15.7.2",

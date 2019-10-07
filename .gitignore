@@ -65,4 +65,6 @@ ios/
 *.yarn.lock
 yarn.lock
 *.handlebars;hbs;mustache
+index.js
+.prettierrc.js
 
