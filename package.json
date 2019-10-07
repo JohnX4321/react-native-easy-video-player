@@ -1,6 +1,6 @@
 {
   "name": "@johnx4321/react-native-easy-video-player",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "git://github.com/JohnX4321/react-native-easy-video-player.git",
   "scripts": {
     "android": "react-native run-android",
