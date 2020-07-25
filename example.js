@@ -1,12 +1,12 @@
-import VideoComponent from './src/VideoComponent';
+import VideoPlayer from './src/VideoPlayer';
 
 export default class App  extends React.Component{
 
     render(): boolean | number | string | React$Element<*> | React$Portal | Iterable | null {
         return (
-            <VideoComponent videoWidth={640} videoHeight={640}
+            <VideoPlayer 
                             url={'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'}
-                            duration={634} title={'Easy Video Player'}/>
+                            text={'Lorem Ipsum dolor iset'}/>
         )
     }
 

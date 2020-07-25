@@ -6,27 +6,9 @@
  * @flow
  */
 
-import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-//import VideoComponent from './src/VideoComponent';
-
-import VideoComponent from './src/VideoComponent';
+import VideoPlayer from './src/VideoPlayer';
 
 
 
-export default VideoComponent;
+export default VideoPlayer;

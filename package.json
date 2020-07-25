@@ -1,16 +1,19 @@
 {
   "name": "@johnx4321/react-native-easy-video-player",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "repository": "git://github.com/JohnX4321/react-native-easy-video-player.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
+    "@react-native-community/slider": "^3.0.3",
     "prop-types": "^15.7.2",
     "react": "16.9.0",
     "react-native": "0.61.2",
+    "react-native-orientation-locker": "^1.1.8",
+    "react-native-progress": "^4.1.2",
     "react-native-vector-icons": "^6.6.0",
-    "react-native-video": "^5.0.2"
+    "react-native-video": "^4.4.5"
   },
   "jest": {
     "preset": "react-native"
