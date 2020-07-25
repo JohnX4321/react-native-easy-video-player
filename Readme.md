@@ -12,15 +12,14 @@ use the following component
 
 the code can be written as
 ```javascript
- <VideoComponent videoWidth={640} videoHeight={640}
+ <VideoPlayer 
         url={'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'}
-        duration={634} title={'Easy Video Player'}/>
+        text={"Demo text"}/>
 ```
 
 Further more features will be added and developement continued. Thank You!!
 
-![Opening Screen](screenshots/opening_view.png)
-![Player Screen](screenshots/playing_view.png)
+![Opening Screen](https://raw.githubusercontent.com/JohnX4321/react-native-easy-video-player/master/screenshots/screenshot_v2.png)
 
 ##Please install react-native-video and react-native-vector -icons at project level and manually link them by
 
